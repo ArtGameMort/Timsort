@@ -1,0 +1,17 @@
+﻿  TimSort.cpp
+C:\Users\Артем\Desktop\2314\TimSort\TimSort\TimSort.cpp(124,68): warning C4244: инициализация: преобразование "double" в "size_t", возможна потеря данных
+C:\Users\Артем\Desktop\2314\TimSort\TimSort\TimSort.cpp(124,63): message : во время компиляции функции-члена класс шаблон "my_vector<int>::my_vector(const std::initializer_list<T> &)"
+          with
+          [
+              T=int
+          ]
+C:\Users\Артем\Desktop\2314\TimSort\TimSort\TimSort.cpp(259,26): message : см. первую ссылку на "my_vector<int>::my_vector" в "main"
+C:\Users\Артем\Desktop\2314\TimSort\TimSort\TimSort.cpp(259,20): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "my_vector<int>"
+C:\Users\Артем\Desktop\2314\TimSort\TimSort\TimSort.cpp(244,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Артем\Desktop\2314\TimSort\TimSort\TimSort.cpp(260,5): message : выполняется компиляция ссылки на экземпляр шаблон функции "void timsort<int>(my_vector<int> &)"
+C:\Users\Артем\Desktop\2314\TimSort\TimSort\TimSort.cpp(117,78): warning C4244: инициализация: преобразование "double" в "size_t", возможна потеря данных
+C:\Users\Артем\Desktop\2314\TimSort\TimSort\TimSort.cpp(117,74): message : во время компиляции функции-члена класс шаблон "my_vector<int>::my_vector(const my_vector<int> &,size_t,size_t)"
+C:\Users\Артем\Desktop\2314\TimSort\TimSort\TimSort.cpp(227,22): message : см. первую ссылку на "my_vector<int>::my_vector" в "gallopMerge"
+C:\Users\Артем\Desktop\2314\TimSort\TimSort\TimSort.cpp(247,9): message : выполняется компиляция ссылки на экземпляр шаблон функции "void insertionSort<int>(my_vector<int> &,int,int)"
+C:\Users\Артем\Desktop\2314\TimSort\TimSort\TimSort.cpp(260,5): message : выполняется компиляция ссылки на экземпляр шаблон функции "void timsort<int>(my_vector<int> &)"
+  TimSort.vcxproj -> C:\Users\Артем\Desktop\2314\TimSort\x64\Debug\TimSort.exe
